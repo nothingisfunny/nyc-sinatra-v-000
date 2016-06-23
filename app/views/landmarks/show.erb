@@ -1,10 +1,15 @@
 <table>
   <tr>
-    <th>Name</th>
-    <th>Year Completed</th>
+    <th align="left">Name</th>
+    <th align="left">Year Completed</th>
   </tr>
   <tr>
-    <td><%= @landmark.name %></td>
-    <td><%= @landmark.year_completed %></td>
+    <td align="left"><%= @landmark.name %></td>
+    <td align="left"><%= @landmark.year_completed %></td>
   </tr>
 <table>
+<a href="/figures/<%@landmark.id%>/edit">
+	<button>Edit</button>
+</a>
+
+
